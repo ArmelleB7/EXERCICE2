@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test_menu</title>
+    <style>
+#menu{
+    display:none;
+}
+#menu.active{
+    display: flex;
+}
+    </style>
+    </head>
+    <body>
+        <header>
+            <button id="menu-toggle">Menu</button>
+    <ul id="menu">
+        
+        <li><a href="../index.html">Accueil</a></li>
+        <li><a href="../HTML/competences.html">Compétences</a></li>
+        <li><a href="../HTML/diplomes.html">Diplômes</a></li>
+        <li><a href="../HTML/experience.html">Expérience</a></li>
+        
+    </ul>
+        </header>
+<footer>
+</footer>
+        <main>
+
+        </main>
+        <script>
+            var menu = document.getElementById("menu");
+
+var menutoggle = document.getElementById("menu-toggle");
+
+menutoggle.addEventListener("click", function () {
+  menu.classList.toggle("active");
+});
+ </script>
+    </body>
+
+    </html> 

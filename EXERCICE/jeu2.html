@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CV de Armelle Bruneaux</title>
+    <meta name="description"
+        content="Curiculum Vitae d'Armelle Bruneaux, conceptrice designer UI junior spécialisée en UX/UI, design d’interface et développement front-end.">
+    <link rel="stylesheet" href="../main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+    <link rel="icon" href="ASSET/fivicon.ico.svg">
+</head>
+
+<body>
+    <style>
+        /* Style Page jeu */
+
+.pagejeu{
+ padding: 106px 0 40px 0;
+
+}
+.jeu{
+  height:340px;
+  width:340px;
+  display:grid;
+  grid-template-columns: repeat(3,3fr);
+  gap:0;
+  margin:0;
+}
+.jeu > div {
+  border: 2px solid black;
+  height:110px;
+  width:110px;
+  text-align: center;
+}
+.croix{
+transform:rotate(45deg);
+}
+#barre11,#barre22,#barre33{
+  transform:rotate(45deg);
+}
+#barre1,#barre2,#barre3{
+  transform:rotate(135deg);
+}
+
+.barre{
+  width: 90px;
+  height:10px;
+  background-color: red;
+  border-color: none;
+}
+.cercleb{
+  border-radius: 50px;
+  height:90px;
+  width:90px;
+  border: 4px solid green;
+
+}
+#cercle1b{
+  position:absolute;
+  top:115px;
+  left: 5px;
+}
+#cercle2b{
+  position:absolute;
+  top:115px;
+  left: 240px;
+}
+#barre1{
+  position:absolute;
+  top:160px;
+  left: 120px;
+}
+#barre11{
+  position:absolute;
+  top:160px;
+  left: 120px;
+}
+#barre2{
+  position:absolute;
+  top:268px;
+  left: 120px;
+}
+#barre22{
+  position:absolute;
+  top:268px;
+  left: 120px;
+}
+#barre3{
+  position:absolute;
+  top:270px;
+  left: 240px;
+}
+#barre33{
+  position:absolute;
+  top:270px;
+  left: 240px;
+}
+#cercle3b{
+  position:absolute;
+  top:345px;
+  left: 240px;
+}
+#cercle4b{
+  position:absolute;
+  top:345px;
+  left: 120px;
+}
+#cercle5b{
+  position:absolute;
+  top:345px;
+  left: 120px;
+}
+    </style>
+    <header id="header">
+    </header>
+
+<main class="pagejeu2">
+    
+    <div><div class="barre" id="barre1"></div>
+<div class="barre" id="barre11"></div></div>
+<div class="barre" id="barre2"></div>
+<div class="barre" id="barre22"></div>
+<div class="barre" id="barre3"></div>
+<div class="barre" id="barre33"></div>
+
+<div class="cercleb" id="cercle1b"></div>
+<div class="cercleb" id="cercle2b"></div>
+<div class="cercleb" id="cercle3b"></div>
+<div class="cercleb" id="cercle4b"></div>
+<div class="cercleb" id="cercle5b"></div>
+
+</main>
+
+     <footer id="footer">
+    </footer>
+</body>
+<script src="../script.js"></script>
+
+</html>

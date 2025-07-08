@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CV de Armelle Bruneaux</title>
+    <meta name="description"
+        content="Curiculum Vitae d'Armelle Bruneaux, conceptrice designer UI junior spécialisée en UX/UI, design d’interface et développement front-end.">
+    <link rel="stylesheet" href="../main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+    <link rel="icon" href="ASSET/fivicon.ico.svg">
+</head>
+
+<body>
+    <style>
+
+.box{
+  width:150px;
+  height:150px;
+  background-color:blue;
+  position:relative;
+}
+.arrow{
+  display:block;
+  width:10px;
+  background-color:red;
+  position:absolute;
+}
+.arrow:first-child{
+  height:100px;
+  left:70px;
+  top:25px;
+}
+.arrow:last-child{
+  height:50px;
+  left:85px;
+  top:85px;
+  transform: rotate(45deg);
+}
+.arrow:nth-child(2){
+  height:50px;
+  left:55px;
+  top:85px;
+  transform: rotate(-45deg);
+}
+.container{
+    display:grid;
+grid-template-columns: repeat(4,150px) ;
+    gap:30px;
+
+    
+}
+.box:nth-of-type(1){
+    background-color: orange;
+     grid-column-start: 2;
+grid-column-end:4;
+margin:auto;
+ grid-row-start: 1;
+
+}
+.box:nth-of-type(2){
+ grid-column-start: 2;
+ grid-row-start: 2;
+}
+.box:nth-of-type(3){
+   grid-column-start: 3;
+ grid-row-start: 2;
+ transform:rotate(180deg);
+background-color: orange;
+}
+.box:nth-of-type(4){
+ grid-column-start: 2;
+ grid-row-start: 3;
+ background-color: orange;
+ position:relative;
+ left:10px;
+}
+.box:nth-of-type(5){
+ grid-column-start: 3;
+ grid-row-start: 3;
+ background-color: orange;
+ transform: rotate(-70deg);
+}
+.box:nth-of-type(6){
+ grid-column-start: 4;
+ grid-row-start: 3;
+}
+.box:nth-of-type(7){
+ grid-column-start: 1;
+ grid-row-start: 4;
+ transform: rotate(90deg);
+}
+.box:nth-of-type(8){
+ grid-column-start: 2;
+ grid-row-start: 3;
+ background-color: yellow;
+
+}
+.box:nth-of-type(9){
+ grid-column-start: 3;
+ grid-row-start: 4;
+ background-color: orange;
+ position:relative;
+top:100px;
+}
+.box:nth-of-type(10){
+ grid-column-start: 2;
+ grid-row-start: 4;
+ 
+}
+.box:nth-of-type(11){
+ grid-column-start: 2;
+ grid-row-start: 5;
+
+ 
+}
+.box:nth-of-type(12){
+ grid-column-start: 2;
+ grid-row-start: 6;
+ background-color: orange;
+ top:-60px
+}
+
+</style>
+
+<div class="container">
+<div class="box">
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+</div>
+
+<div class="box">
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+</div>
+<div class="box">
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+</div>
+
+
+<div class="box">
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+</div>
+<div class="box">
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+</div>
+<div class="box">
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+</div>
+<div class="box">
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+</div>
+<div class="box">
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+</div>
+<div class="box">
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+</div>
+<div class="box">
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+</div>
+<div class="box">
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+</div>
+<div class="box">
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+</div>
+</div>
+
+
+</body>
+
+
+     <footer id="footer">
+    </footer>
+</body>
+<script src="../script.js"></script>
+
+</html>

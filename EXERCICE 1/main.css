@@ -1,0 +1,135 @@
+/*style header*/
+header {
+    display:flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 2em;
+flex-wrap: wrap; 
+
+}
+
+
+#menu-list{ 
+ list-style: none;
+ display:flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 2em;
+flex-wrap: wrap; 
+ }
+#container{
+   width: 1000px;
+            margin: auto;
+            border: 1px solid rgb(145, 0, 0);
+            border-top: 10px solid purple;
+            padding: 15px;
+}
+ .ajouter-btn{
+    display:inline-block;
+
+ }
+
+ .Les-produits{
+    display: flex;
+ 
+  }
+  .Les-produits div{
+   width:auto
+   display:flex;
+   flex-direction: column;
+    }
+   .conteneur {                                                                 
+
+  display: flex;   
+                                                         
+
+  justify-content: space-around;                                             
+
+  align-items: center;                                                       
+
+  height: 200px;                                                             
+
+  background: #f1f1f1;                                                       
+
+}                                                                            
+
+.carte {                                                                     
+
+  background: #007bff;                                                       
+
+  color: white;                                                              
+
+  padding: 30px;                                                             
+
+  border-radius: 10px;                                                       
+
+} 
+.grille {                          
+
+  display: grid;                   
+
+  grid-template-columns: 1fr 1fr;  
+
+  gap: 20px;                       
+
+}                                  
+
+.box {                             
+
+  background: #e63946;             
+
+  color: white;                    
+
+  padding: 20px;                   
+
+  text-align: center;              
+
+}
+
+.carte-responsive {                                                                     
+
+  display: flex;                                                             
+
+  gap: 20px;                                                                 
+
+  padding: 20px;                                                             
+
+  border: 1px solid #ccc;                                                    
+
+  max-width: 800px;                                                          
+
+  margin: auto;                                                              
+
+}                                                                            
+
+.carte-responsive img {                                                                 
+
+  width: 150px;                                                              
+
+}                                                                            
+
+@media (max-width: 600px) {                                                  
+
+  .carte-responsive {                                                                   
+
+    flex-direction: column;                                                  
+
+    text-align: center;                                                      
+
+  }                                                                          
+
+  .carte-responsive img {                                                               
+
+    width:100%;                                                             
+
+  }                                                                          
+
+}                                                                            
+
+.carte-responsive h2 {                                                                  
+
+  font-size: 1.5em;                                                          
+
+  margin: 0;                                                                 
+
+} 

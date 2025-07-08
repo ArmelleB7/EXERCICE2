@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+  <style>
+
+   * { 
+    margin: 0;
+    padding: 0;
+      box-sizing:border-box; 
+   }
+
+    #grid {
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(2, 2fr);
+      background-color: bisque;
+
+    }
+
+    #item1img {
+      background-color: lime;
+      height: 40px;
+      width: 40px;
+      grid-column: 1/1;
+      margin: 1rem;
+    }
+
+    #item2menu {
+      background-color: yellow;
+      list-style: none;
+      grid-column: 1 / 2;
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(1, 5fr);
+      padding: 0.5rem 1rem 1rem 1rem;
+      gap: 2rem;
+    }
+
+    #itemburger {
+      display: flex;
+      background-color: blue;
+      height: 40px;
+      width: 40px;
+      grid-column: 2/ 2;
+      justify-self: right;
+      margin: 1rem;
+    }
+
+    @media screen and (min-width: 720px) {
+      #grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        width: 100%;
+        
+      }
+
+      #item2menu {
+      width: 80%;
+        grid-template-columns: repeat(5, 1fr);
+      }
+
+      #item3burger {
+        display: none;
+      }
+    }
+
+  </style>
+
+  <header>
+  </header>
+  <main>
+
+    <div id="grid">
+
+      <img id="item1img">
+      <div id="item3burger"></div>
+      <ul id="item2menu">
+        <li id="item2.1">Page1</li>
+        <li id="item2.2">Page2</li>
+        <li id="item2.3">Page3</li>
+        <li id="item2.4">Page4</li>
+        <li id="item2.5">Me contacter</li>
+      </ul>
+
+    </div>
+
+  </main>
+</body>
+
+<footer>
+
+</footer>
+</htlm>
